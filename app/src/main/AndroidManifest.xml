@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.projects.zeroWaste">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="Zero Waste"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FOODHUNGER"
+        tools:ignore="AllowBackup">
+        <activity android:name="com.projects.zeroWaste.UserdataActivity"></activity>
+        <activity android:name="com.projects.zeroWaste.History" />
+        <activity android:name="com.projects.zeroWaste.MyPin" />
+        <activity android:name="com.projects.zeroWaste.About" />
+        <activity android:name="com.projects.zeroWaste.FoodMap" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBtAubRGSlTZanGLTPT3JrKWsRCFAXZzrE" />
+
+        <activity android:name="com.projects.zeroWaste.Receive" />
+        <activity android:name="com.projects.zeroWaste.Contact" />
+        <activity android:name="com.projects.zeroWaste.Signup" />
+        <activity android:name="com.projects.zeroWaste.Logup" />
+        <activity android:name="com.projects.zeroWaste.MainActivity" />
+        <activity android:name="com.projects.zeroWaste.Donate" />
+        <activity android:name="com.projects.zeroWaste.landingpage" />
+        <activity
+            android:name="com.projects.zeroWaste.SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
