@@ -1,7 +1,8 @@
 # Donate-Mate
 Donate Mate is a application used for the donation and request for the food. This application is made up of XML,JAVA and firebase as a database.
 database.This app allows food donor to log in,enter their details and offer their surplus food for donation.On the other hand,individuals seeking food assistance can enter their details and request for the food donations.The app incorporates mapping functionality to enable efficient communication between donors and receivers,ensuring seamless delivery of donated food
-## Screenshots![SS (1)](https://github.com/toxic-coderr/Donate-Mate/assets/89770322/4bf15e22-e581-4aff-8a7c-8e68551212b0)
+## Screenshots
+![SS (1)](https://github.com/toxic-coderr/Donate-Mate/assets/89770322/4bf15e22-e581-4aff-8a7c-8e68551212b0)
 ![SS (12)](https://github.com/toxic-coderr/Donate-Mate/assets/89770322/f05cc949-3481-42fe-b393-d3ca1b2ba5c3)
 ![SS (11)](https://github.com/toxic-coderr/Donate-Mate/assets/89770322/82f90d53-735f-4fc1-bcbb-c92fbeaffb4d)
 ![SS (10)](https://github.com/toxic-coderr/Donate-Mate/assets/89770322/123af0f4-741c-43e3-80b5-9ff2e6c647ad)
